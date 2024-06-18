@@ -68,7 +68,7 @@ function NavbarComponent() {
 
                 </div>
 
-                <div className={`py-4 justify-between md:hidden bg-white rounded-md backdrop-filter backdrop-blur-lg bg-opacity-20
+                <div className={`py-4 justify-between md:hidden bg-white rounded-md backdrop-filter z-10 backdrop-blur-lg bg-opacity-20
                 ${navOpen ? "block top-16 fixed w-[85%]" : "hidden"}`}
                 >
                     <ul className="flex justify-center items-center gap-2 font-semibold flex-col">
